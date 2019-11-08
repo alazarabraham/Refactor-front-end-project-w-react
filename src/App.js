@@ -5,7 +5,8 @@ import Wrapper from "./components/wrapper";
 import './App.css';
 import "bulma/css/bulma.css";
 import {Button, MenuList} from "bloomer";
-import Ingredient from './components/ingredient';
+import Stories from './components/stories';
+import './App.css';
 
 
 
@@ -13,11 +14,12 @@ function App() {
   return (
       <div className="App">
           <header className="App-header">
-              <h1>Recipe Junkie</h1>
+              <h1>Crazy News From the Justice Department</h1>
+              <img src="https://d2v9ipibika81v.cloudfront.net/uploads/sites/253/Logo-Department-of-Justice-1.jpg"></img>
           </header>
           <Wrapper>
               <MenuList>
-                  <Ingredient/>
+                  <Stories/>
               </MenuList>
         </Wrapper>
       </div>
